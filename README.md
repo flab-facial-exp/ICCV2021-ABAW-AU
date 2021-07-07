@@ -1,4 +1,4 @@
-# Action Unit Recognition by Improved Pairwise Deep Architecture
+# Action Units Recognition Using Improved Pairwise Deep Architecture
 This is a code for ICCV2021 ABAW2 AU detection Challenge.
 
 Paper link is [here](https://)
