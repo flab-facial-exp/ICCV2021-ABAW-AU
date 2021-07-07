@@ -1,3 +1,7 @@
+# About this code
+#   This is a code for ICCV2021 ABAW2 AU detection Challenge.
+#   Copyright 2021 FUJITSU LIMITED.
+
 import json
 
 au_name = "AU06"
