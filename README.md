@@ -47,6 +47,9 @@ Paper link is [here](https://)
            - frame000000,0
            - frame000001,0
            - ...
+      - ~/corpus/ICCV/partition/partition_v2.json
+         - set VIDEO_ID for each MODE_ID as followings
+         - { "Train":\["1-30-1280x720",...\], "Valid":\[...\], "Test":\[...\] }
     - For other datasets, make as Aff-Wild2 dataset
 - (4) locate and run the program (au_abaw2.ipynb, param.py)
   - locate the program to ~/au/abaw2/
