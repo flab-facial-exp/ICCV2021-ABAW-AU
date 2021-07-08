@@ -14,11 +14,8 @@ Paper link is [here](https://)
   - AWS g3s.xlarge (GPU is needed)
 
 # How to run
-- (1) prepare datasets
+- (1) prepare dataset
   - Aff-Wild2
-  - BP4D, BP4D+
-    - 15 face orientations ( 9 face orientations like FERA2017 and 6 mirrored orientations ) from 3D data
-  - DISFA
 - (2) preprocess images
   - face detection
     - MTCNN
@@ -50,7 +47,6 @@ Paper link is [here](https://)
       - ~/corpus/ICCV/partition/partition_v2.json
          - set VIDEO_ID for each MODE_ID as followings
          - { "Train":\["1-30-1280x720",...\], "Valid":\[...\], "Test":\[...\] }
-    - For other datasets, make as Aff-Wild2 dataset
 - (4) locate and run the program (au_abaw2.ipynb, param.py)
   - locate the program to ~/au/abaw2/
   - set parameters at param.py
