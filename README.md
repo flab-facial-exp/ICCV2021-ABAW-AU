@@ -1,7 +1,7 @@
 # Action Units Recognition Using Improved Pairwise Deep Architecture
 This is a code for ICCV2021 ABAW2 AU detection Challenge.
 
-Paper link is [here](https://)
+Paper link is [here](https://arxiv.org/abs/2107.03143)
 
 # Tested environment
 - software
@@ -18,11 +18,12 @@ Paper link is [here](https://)
   - Aff-Wild2
 - (2) preprocess images
   - face detection
-    - MTCNN
+    - face detector: MTCNN of OpenCV
   - image normalization
     - perform procrustes analysis
       - ref: https://www.mathworks.com/help/stats/procrustes.html
       - ref: K. Niinuma, L. A. Jeni, I. O. Ertugrul, and J. F. Cohn, “Unmasking the devil in the details: What works for deep facial action coding?,” in BMVC: proceedings of the British Machine Vision Conference. British Machine Vision Conference, 2019.
+      - landmark detector: 68 point landmark detector of Dlib
   - resizing
     - resize all images to 224x224 (VGG16 input size)
 - (3) locate datasets
